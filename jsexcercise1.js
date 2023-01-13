@@ -52,7 +52,7 @@ for (let i = 0; i < n; i++){
             string += "  ";
     }
     string += "\n";
-    if (i < 2) {
+    if (i < Math.floor(n/2)) {
         k--;
         l += 2;
      }
